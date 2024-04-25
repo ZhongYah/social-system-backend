@@ -1,0 +1,2 @@
+CREATE TABLE comment (comment_id int NOT NULL AUTO_INCREMENT, user_id int NOT NULL, post_id int NOT NULL, content varchar(1024) NOT NULL, created_at timestamp, PRIMARY KEY (comment_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_0900_ai_ci;
+INSERT INTO comment (comment_id, user_id, post_id, content, created_at) VALUES (1, 1, 2, 'Good morning, test1! My day\'s going well, thank you. How about yours?', '2024-04-25 01:00:26');

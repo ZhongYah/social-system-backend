@@ -1,0 +1,2 @@
+CREATE TABLE post (post_id int NOT NULL AUTO_INCREMENT, user_id int NOT NULL, content varchar(1024) NOT NULL, image varchar(1024), created_at timestamp, PRIMARY KEY (post_id)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_0900_ai_ci;
+INSERT INTO post (post_id, user_id, content, image, created_at) VALUES (3, 1, 'Good morning everyone! How\'s your day going?', 'morning.jpg', '2024-04-25 01:26:56');
