@@ -2,9 +2,7 @@
 
 - [**社群媒體系統功能** *****`Social System`*****](#社群媒體系統功能流程-social-system)
   - [\[專案介紹 ── Description\]](#專案介紹--description)
-    - [\[後端-敘述 ── Backend Description\]](#後端-敘述--backend-description)
-      - [功能API](#功能api)
-  - [\[功能流程 ── Functional Flow\]](#功能流程--functional-flow)
+  - [\[後端敘述 ── Backend Description\]](#後端敘述--backend-description)
 
 ## [專案介紹 ── Description]
 此專案為社群媒體系統功能後端程式。
@@ -13,12 +11,11 @@
 
 >後端語言（backend language）：Java
 
-### [後端-敘述 ── Backend Description]
+## [後端敘述 ── Backend Description]
 
 RESTful API 設計風格。
 
-#### 功能API
-
+>功能API :
 
 > (1) 註冊功能: 
 > - `POST` 
