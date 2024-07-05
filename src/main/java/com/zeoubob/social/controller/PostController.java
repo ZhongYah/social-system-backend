@@ -15,7 +15,7 @@ import java.util.Objects;
 
 @Validated
 @RestController
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class PostController {
 
     @Autowired

@@ -14,7 +14,7 @@ import java.util.List;
 
 @Validated
 @RestController
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class CommentController {
 
     @Autowired
